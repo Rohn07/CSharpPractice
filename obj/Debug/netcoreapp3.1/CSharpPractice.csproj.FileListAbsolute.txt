@@ -1,0 +1,13 @@
+C:\ASPDotNet\CSharpPractice\bin\Debug\netcoreapp3.1\CSharpPractice.exe
+C:\ASPDotNet\CSharpPractice\bin\Debug\netcoreapp3.1\CSharpPractice.deps.json
+C:\ASPDotNet\CSharpPractice\bin\Debug\netcoreapp3.1\CSharpPractice.runtimeconfig.json
+C:\ASPDotNet\CSharpPractice\bin\Debug\netcoreapp3.1\CSharpPractice.runtimeconfig.dev.json
+C:\ASPDotNet\CSharpPractice\bin\Debug\netcoreapp3.1\CSharpPractice.dll
+C:\ASPDotNet\CSharpPractice\bin\Debug\netcoreapp3.1\CSharpPractice.pdb
+C:\ASPDotNet\CSharpPractice\obj\Debug\netcoreapp3.1\CSharpPractice.csprojAssemblyReference.cache
+C:\ASPDotNet\CSharpPractice\obj\Debug\netcoreapp3.1\CSharpPractice.AssemblyInfoInputs.cache
+C:\ASPDotNet\CSharpPractice\obj\Debug\netcoreapp3.1\CSharpPractice.AssemblyInfo.cs
+C:\ASPDotNet\CSharpPractice\obj\Debug\netcoreapp3.1\CSharpPractice.csproj.CoreCompileInputs.cache
+C:\ASPDotNet\CSharpPractice\obj\Debug\netcoreapp3.1\CSharpPractice.dll
+C:\ASPDotNet\CSharpPractice\obj\Debug\netcoreapp3.1\CSharpPractice.pdb
+C:\ASPDotNet\CSharpPractice\obj\Debug\netcoreapp3.1\CSharpPractice.genruntimeconfig.cache
