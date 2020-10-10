@@ -6,56 +6,27 @@ namespace CSharpPractice
     {
         static void Main(string[] args)
         {
-            // WHILE LOOP
-            Console.WriteLine("Please enter your target:");
-            int target = int.Parse(Console.ReadLine());
-            int start = 0;
+            Program p = new Program(); // creating a instance.
+            // p.EvenNumbers(); // calling a method with the help of instance.
+            Program.EvenNumbers(60); // static methods don't need an instance for calling.
 
-            while (start <= target)
-            {
-                Console.Write(start + " ");
-                start += 2;
+            int sum = p.AddNumbers(30,40);
+            Console.WriteLine(sum);
+        }
+        // instance method.
+        //public void EvenNumbers()
+        // static method
+        public static void EvenNumbers(int target) 
+        {
+            int number = 0;
+            while (number  <= target) {
+                Console.WriteLine(number);
+                number += 2;
             }
-
-            // DO WHILE LOOP
-            string userChoice = string.Empty;
-            do 
-            {
-                Console.WriteLine("Please enter your target:");
-                int target2 = int.Parse(Console.ReadLine());
-                int start2 = 0;
-                
-                while (start2 <= target2)
-                {
-                    Console.Write(start2 + " ");
-                    start2 += 2;
-                }
-                do
-                {
-                    Console.WriteLine("Do you want to continue? Yes or No");
-
-                    userChoice = Console.ReadLine().ToUpper();
-                    if(userChoice != "YES" && userChoice != "NO")
-                    {
-                        Console.WriteLine("Invalid choice.");
-                    }
-                } while (userChoice != "YES" && userChoice != "NO");
-            } while(userChoice == "YES");
-
-            // FOR AND FOR EACH LOOPS
-            int[] numbers = new int[3];
-
-            numbers[0] = 101;
-            numbers[1] = 102;
-            numbers[2] = 103;
-
-            for(int i = 0; i <numbers.Length; i++) {
-                Console.WriteLine(numbers[i]);
-            }
-
-            foreach (int each in numbers) {
-                Console.WriteLine(each);
-            }
+        }
+        public int AddNumbers(int a, int b) 
+        {
+            return a + b;
         }
     }
 }
